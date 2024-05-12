@@ -1,0 +1,107 @@
+body {
+  margin-left: 30vh;
+  margin-right: 30vh;
+
+  background-color: rgb(223, 222, 222);
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  gap: 5vh;
+}
+
+.card {
+  border: transparent 1px solid;
+  border-radius: 1vh;
+  color: white;
+  padding: 2vh 4vh 2vh 4vh;
+  font-family: DM Sans;
+  grid-row: 1;
+}
+
+.grid-bluecard {
+  background-color: blue;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12vh;
+  margin-bottom: 3vh;
+}
+
+.card-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12vh;
+}
+
+.grid-redcard {
+  background-color: red;
+}
+
+.grid-greencard {
+  background-color: green;
+}
+
+.user-grid {
+  display: grid;
+  row-gap: 5vh;
+  margin-top: 10vh;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 9vh;
+  border: transparent 1px solid;
+  background-color: white;
+  padding: 1vh 2vh 1vh 2vh;
+  border-radius: 1vh;
+  align-items: center;
+  font-family: DM Sans;
+  font-weight: 600;
+}
+
+.profit-amount {
+  color: rgba(67, 57, 242, 1);
+}
+
+.user-row1 {
+}
+
+.user-row2 {
+}
+
+.user-row3 {
+}
+
+.user-row4 {
+}
+
+.user-header {
+  display: flex;
+  grid-row: 1;
+  gap: 2vh;
+}
+
+.projects {
+  grid-row: 1;
+}
+
+.profit {
+  grid-row: 1;
+}
+
+.text {
+  font-size: 1.3vh;
+  color: rgb(93, 93, 93);
+}
+
+.user-surname {
+  font-size: 1.3vh;
+  color: rgb(93, 93, 93);
+}
